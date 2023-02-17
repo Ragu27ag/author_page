@@ -1,0 +1,946 @@
+.head{
+    
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}
+
+.head-1{
+    
+    height: 20px;
+    width: 100px;
+    background-color: black;
+    }
+
+.home{
+    
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.home-1{
+    
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+    color: white;
+}
+.about{
+    
+    height: 550px;
+    width: 100%;
+
+}
+.maind{
+    
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+.about-in{
+    
+    height: 500px;
+    width: 500px;
+}
+.about-in1{
+    
+    height: 240px;
+    width: 500px;
+    margin: 1%;
+    
+}
+/* .about-in2{
+    border: 2px solid red;
+    height: inherit;
+    width: 350px;
+    display: inline-block;
+    margin : auto;
+    margin-top: 10px;
+} */
+.about-in3{
+    
+    height: 240px;
+    width: 500px;
+    margin-left: 1%; 
+    
+}
+.in2{
+    
+    height: 300px;
+    width: 290px;
+    margin-top: 60px; 
+}
+.bottom{
+    
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.bottom-1{
+    
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: gray;
+}
+.bottom-2{
+    
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+}
+.bottom-3{
+    
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: orange;
+    color: white;
+}
+.quotes{
+ 
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    padding: 2%;
+}
+.quotes-1{
+
+    height: 50px;
+    width: 600px;
+    margin: auto;
+    color: white;
+    padding: 2%;
+}
+.achiev{
+    
+    height: 700px;
+    width: 100%;
+}
+.achiev-1{
+   
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    margin-top: 2%;
+}
+.achiev-2{
+   
+    height: 200px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.award-1{
+    border: 1px solid grey;
+    height: 150px;
+    width: 225px;
+    margin-top: 2%;
+}
+.award-2{
+    border: 1px solid grey;
+    height: 150px;
+    width: 225px;
+    margin-top: 2%;
+}
+.award-3{
+    border: 1px solid grey;
+    height: 150px;
+    width: 225px;
+    margin-top: 2%;
+}
+.award-4{
+    border: 1px solid grey;
+    height: 150px;
+    width: 225px;
+    margin-top: 2%;
+}
+.achiev-3{
+    
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.tit-1{
+    
+    height: 50px;
+    width: 500px;
+    margin-top: 1%;
+}
+.tit-2{
+    
+    height: 50px;
+    width: 500px;
+    margin-top: 1%;
+}
+.achiev-4{
+    
+    height: 250px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.poetry{
+    
+    height: 250px;
+    width: 500px;
+    margin-top: 1%;
+}
+.songs{
+    
+    height: 250px;
+    width: 500px;
+    margin-top: 1%;
+}
+
+.foot{
+    
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+
+}
+.foot-1{
+    
+    height: 100px;
+    width: 300px;
+    margin-top: 1%;
+    margin: auto;
+    color: white;
+}
+.foot-2{
+    
+    height: 100px;
+    width: 300px;
+    margin-top: 1%;
+    margin: auto;
+    color: white;
+}
+.foot-3{
+    
+    height: 100px;
+    width: 300px;
+    margin-top: 1%;
+    margin: auto;
+    color: white;
+}
+@media screen and (min-width : 320px) and (max-width : 425px) {
+    .head{
+    
+        height: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: black;
+        
+    }
+    .head-1{
+    
+        height: 20px;
+        width: 20%;
+        background-color: black;
+        }
+    
+
+    .home{
+    
+        height: 300px;
+        width: 100%;
+        background-color: black;
+    }
+    .home-1{
+    
+        height: 150px;
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+        color: white;
+    }
+    .about{
+    
+        height: 550px;
+        width: 100%;
+    
+    }
+    .maind{
+        
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .about-in{
+        
+        height: 100px;
+        width: 100%;
+    }
+    .about-in1{
+        
+        height: 150px;
+        width: 100%;
+        
+    }
+    /* .about-in2{
+        border: 2px solid red;
+        height: inherit;
+        width: 350px;
+        display: inline-block;
+        margin : auto;
+        margin-top: 10px;
+    } */
+    .about-in3{
+        
+        height: 50px;
+        width: 100%;
+        
+    }
+    .in2{
+        
+        height: 20px;
+        width: 100%;
+    }
+    .bottom{
+    
+        height: 300px;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .bottom-1{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+    }
+    .bottom-2{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: red;
+        color: white;
+    }
+    .bottom-3{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: orange;
+        color: white;
+    }
+    .quotes{
+ 
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        padding: 2%;
+    }
+    .quotes-1{
+    
+        height: 50px;
+        width: 100%;
+        color: white;
+        padding: 2%;
+    }
+    .achiev{
+    
+        height: 1000px;
+        width: 100%;
+    }
+    .achiev-1{
+       
+        height: 50px;
+        width: 100%;
+    }
+    .achiev-2{
+       
+        height: 800px;
+        width: 100%;
+        display: flex;
+    }
+    .award-1{
+        border: 1px solid grey;
+        height: 200px;
+        width: 50%;
+    }
+    .award-2{
+        border: 1px solid grey;
+        height: 200px;
+        width: 50%;
+    }
+    .award-3{
+        border: 1px solid grey;
+        height: 200px;
+        width: 50%;
+    }
+    .award-4{
+        border: 1px solid grey;
+        height: 200px;
+        width: 50%;
+    }
+    .achiev-3{
+    
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    .tit-1{
+        
+        height: 10px;
+        width: 50%;
+
+    }
+    .tit-2{
+        
+        height: 10px;
+        width: 50%;
+
+    }
+    .achiev-4{
+        
+        height: 500px;
+        width: 100%;
+    
+        
+    }
+    .poetry{
+        
+        height: 100px;
+        width: 50%;
+        
+
+    }
+    .songs{
+        
+        height: 100px;
+        width: 50%;
+        
+    }
+    
+    .foot{
+        
+        height: 250px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        margin-top: 50%;
+    
+    }
+    .foot-1{
+        
+        height: 100px;
+        width: 50%;
+        color: white;
+    }
+    .foot-2{
+        
+        height: 100px;
+        width: 50%;
+        color: white;
+    }
+    .foot-3{
+        
+        height: 100px;
+        width: 100%;
+        color: white;
+    }
+}
+@media screen and (min-width : 425px) and (max-width : 768px) {
+    .head{
+    
+        height: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: black;
+        
+    }
+    .head-1{
+    
+        height: 20px;
+        width: 30%;
+        background-color: black;
+        }
+    
+
+    .home{
+    
+        height: 300px;
+        width: 100%;
+        background-color: black;
+    }
+    .home-1{
+    
+        height: 300px;
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+        color: white;
+    }
+    .about{
+    
+        height: 700px;
+        width: 100%;
+    
+    }
+    .maind{
+        
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .about-in{
+        
+        height: 200px;
+        width: 100%;
+    }
+    .about-in1{
+        
+        height: 150px;
+        width: 100%;
+        
+    }
+    /* .about-in2{
+        border: 2px solid red;
+        height: inherit;
+        width: 350px;
+        display: inline-block;
+        margin : auto;
+        margin-top: 10px;
+    } */
+    .about-in3{
+        
+        height: 40px;
+        width: 100%; 
+        
+    }
+    .in2{
+        
+        height: 200px;
+        width: 100%;
+    }
+    .bottom{
+    
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .bottom-1{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: gray;
+    }
+    .bottom-2{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: red;
+        color: white;
+    }
+    .bottom-3{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: orange;
+        color: white;
+    }
+    .quotes{
+ 
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        padding: 2%;
+    }
+    .quotes-1{
+    
+        height: 50px;
+        width: 100%;
+        color: white;
+        padding: 2%;
+    }
+    .achiev{
+    
+        height: 1000px;
+        width: 100%;
+    }
+    .achiev-1{
+       
+        height: 50px;
+        width: 100%;
+    }
+    .achiev-2{
+       
+        height: 700px;
+        width: 100%;
+        display: flex;
+    }
+    .award-1{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .award-2{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+        
+    }
+    .award-3{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .award-4{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .achiev-3{
+    
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    .tit-1{
+        
+        height: 50px;
+        width: 50%;
+
+    }
+    .tit-2{
+        
+        height: 50px;
+        width: 50%;
+
+    }
+    .achiev-4{
+        
+        height: 600px;
+        width: 100%;
+
+    }
+    .poetry{
+        
+        height: 100px;
+        width: 50%;
+
+    }
+    .songs{
+        
+        height: 100px;
+        width: 50%;
+
+    }
+    
+    .foot{
+        
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        margin-top: 100px;
+    
+    }
+    .foot-1{
+        
+        height: 100px;
+        width: 50%;
+        color: white;
+    }
+    .foot-2{
+        
+        height: 100px;
+        width: 50%;
+        color: white;
+    }
+    .foot-3{
+        
+        height: 100px;
+        width: 100%;
+        color: white;
+    }
+}
+@media screen and (min-width : 769px) and (max-width : 1024px) {
+    .head{
+    
+        height: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        
+    }
+    .head-1{
+    
+        height: 20px;
+        width: 5%;
+        background-color: black;
+        }
+    
+
+    .home{
+    
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .home-1{
+    
+        height: 300px;
+        width: 100%;
+        margin: auto;
+        color: white;
+    }
+    .about{
+    
+        height: 700px;
+        width: 100%;
+    
+    }
+    .maind{
+        
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-in{
+        
+        height: 1px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-in1{
+        
+        height: 100px;
+        width: 100%;
+        
+    }
+    /* .about-in2{
+        border: 2px solid red;
+        height: inherit;
+        width: 350px;
+        display: inline-block;
+        margin : auto;
+        margin-top: 10px;
+    } */
+    .about-in3{
+        
+        height: 100px;
+        width: 100%;
+        
+    }
+    .in2{
+        height: 50px;
+        width: 100%;
+    }
+    .bottom{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .bottom-1{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: gray;
+    }
+    .bottom-2{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: red;
+        color: white;
+    }
+    .bottom-3{
+        
+        border-radius: 5px;
+        height: 30px;
+        width: 100%;
+        background-color: orange;
+        color: white;
+    }
+    .quotes{
+ 
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        padding: 2%;
+    }
+    .quotes-1{
+    
+        height: 50px;
+        width: 100%;
+        color: white;
+        padding: 2%;
+    }
+    .achiev{
+    
+        height: 700px;
+        width: 100%;
+    }
+    .achiev-1{
+       
+        height: 50px;
+        width: 100%;
+    }
+    .achiev-2{
+       
+        height: 700px;
+        width: 100%;
+        display: flex;
+    }
+    .award-1{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .award-2{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .award-3{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .award-4{
+        border: 1px solid grey;
+        height: 150px;
+        width: 50%;
+    }
+    .achiev-3{
+    
+        height: 50px;
+        width: 100%;
+
+    
+    }
+    .tit-1{
+        
+        height: 50px;
+        width: 50%;
+
+    }
+    .tit-2{
+        
+        height: 50px;
+        width: 50%;
+
+    }
+    .achiev-4{
+        
+        height: 300px;
+        width: 50%;
+    
+    }
+    .poetry{
+        
+        height: 150px;
+        width: 50%;
+
+
+    }
+    .songs{
+        
+        height: 150px;
+        width: 50%;
+
+
+    }
+    
+    .foot{
+        
+        height: 150px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        margin-top: 450px;
+    
+    }
+    .foot-1{
+        
+        height: 100px;
+        width: 30%;
+        color: white;
+    }
+    .foot-2{
+        
+        height: 100px;
+        width: 35%;
+        color: white;
+    }
+    .foot-3{
+        
+        height: 100px;
+        width: 35%;
+        color: white;
+    }
+}
